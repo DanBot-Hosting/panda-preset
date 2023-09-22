@@ -1,6 +1,6 @@
 {
-  "name": "panda-preset",
-  "version": "0.1.0",
+  "name": "@danbot-hosting/panda-preset",
+  "version": "1.0.0",
   "description": "Panda CSS preset for adding DBH theme in the project.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -13,16 +13,17 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsup index.ts --format=esm,cjs --dts",
+    "build": "tsup index.ts --format=esm,cjs --dts --minify",
     "build-fast": "tsup index.ts --format=esm,cjs --no-dts",
-    "dev": "pnpm build-fast --watch"
+    "dev": "pnpm build-fast --watch",
+    "prepare": "pnpm build"
   },
   "files": [
     "dist"
   ],
   "dependencies": {
     "@pandacss/types": "^0.15.0",
-    "cvet": "^3.2.1",
+    "cvet": "^4.0.0",
     "typescript": "^5.2.2"
   }
 }

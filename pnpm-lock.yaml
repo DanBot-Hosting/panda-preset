@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.15.0
     version: 0.15.0
   cvet:
-    specifier: ^3.2.1
-    version: 3.2.1
+    specifier: ^4.0.0
+    version: 4.0.0
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -25,8 +25,8 @@ packages:
     resolution: {integrity: sha512-yaLUPPChaQuc0cW+2In7Eg1VSvGrO2g4tBcsAoj5trV64hP1qN7Fln8uc4timh70QEwgzSaiMzikO0mgq3ARUQ==}
     dev: false
 
-  /cvet@3.2.1:
-    resolution: {integrity: sha512-K/gmsf7Gm6lFc5KkghpbW4bX0MF+S5wmQCr6lhSsEBgGDfNcyMGuOvxoTlqKvIi9wm34fBuf7ACCLANlGDQOZg==}
+  /cvet@4.0.0:
+    resolution: {integrity: sha512-Ma2hMep9TT6GUH+H1dZTCWv9kjTGfccY92UyIIXYezCZ3z4Vce91+SLSyXW4y4pMPCM3yKlzDhYWp7GLFd900Q==}
     dependencies:
       '@cvet/types': 3.0.0
     dev: false
