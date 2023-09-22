@@ -32,4 +32,5 @@ export const dbhPreset = definePreset({
   },
 });
 
+export * from "@/lib";
 export * as Preset from "@/types";

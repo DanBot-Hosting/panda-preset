@@ -1,6 +1,6 @@
 {
   "name": "@danbot-hosting/panda-preset",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Panda CSS preset for adding DBH theme in the project.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
