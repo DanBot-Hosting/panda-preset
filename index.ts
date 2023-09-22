@@ -12,7 +12,9 @@ import type { Preset } from "@pandacss/types";
 
 const definePreset = <T extends Preset>(preset: T) => preset;
 
-export const dbhPreset = definePreset({
+export default definePreset({
+  presets: ["@pandacss/preset-base"],
+
   conditions: {
     ...generateThemeModeConditions(),
     ...generateThemeConditions(),

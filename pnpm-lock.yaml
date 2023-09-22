@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@pandacss/preset-base':
+    specifier: ^0.15.1
+    version: 0.15.1
   '@pandacss/types':
     specifier: ^0.15.0
     version: 0.15.0
@@ -21,8 +24,18 @@ packages:
     resolution: {integrity: sha512-JKU7Ux50+c6o7RzmxtZ8m20LUI5VIHF1GPWNV1NJRA0dS9qCa/mGNXy6l7qU019hBJJLalC5/KgD/PbBeMZH1w==}
     dev: false
 
+  /@pandacss/preset-base@0.15.1:
+    resolution: {integrity: sha512-hHlyJYRq8vdlur/AyDm0eW4c/lLWv51IXW1MuxWzQr9IURPVBQyiPFYRbFBE4SI5BDJuOBXAgrscQNj1y3dVvA==}
+    dependencies:
+      '@pandacss/types': 0.15.1
+    dev: false
+
   /@pandacss/types@0.15.0:
     resolution: {integrity: sha512-yaLUPPChaQuc0cW+2In7Eg1VSvGrO2g4tBcsAoj5trV64hP1qN7Fln8uc4timh70QEwgzSaiMzikO0mgq3ARUQ==}
+    dev: false
+
+  /@pandacss/types@0.15.1:
+    resolution: {integrity: sha512-hjagGv/bRBNXmPqGxzhoKTeiDMvC2TTpgPdG0eQnvnjg82bSr7AkDWh9i9F1PrPQLFBalEQZ69Dr/v+KsA6Lzg==}
     dev: false
 
   /cvet@4.0.0:
